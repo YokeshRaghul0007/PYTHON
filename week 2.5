@@ -1,0 +1,6 @@
+cost=float(input())
+tax=float(round(cost*(5/100),2))
+tip=float(round(cost*(18/100),2))
+tot=float(tax+tip+cost)
+tot=round(tot,2)
+print("The tax is %.2f" %tax,"and the tip is %0.2f,"%tip,"making the total %0.2f"%tot)
