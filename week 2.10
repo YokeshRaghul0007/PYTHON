@@ -1,0 +1,6 @@
+w=int(input())
+a=int(input())
+if w>=18 and a>40 :
+    print("True")
+else :
+    print("False")
